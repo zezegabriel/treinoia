@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.TreinoIA" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#16161A</item>
+        <item name="android:windowBackground">#16161A</item>
+        <item name="android:navigationBarColor">#16161A</item>
+    </style>
+</resources>

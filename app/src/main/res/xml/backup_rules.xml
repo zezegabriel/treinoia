@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- A chave da API fica em SharedPreferences; excluímos do backup automático
+         por segurança (evita que ela viaje em backups do Google/dispositivo). -->
+    <exclude domain="sharedpref" path="treinoia_prefs.xml" />
+</full-backup-content>
