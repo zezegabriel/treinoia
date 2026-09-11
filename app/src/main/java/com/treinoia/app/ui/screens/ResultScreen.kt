@@ -14,10 +14,10 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Timer
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.OutlinedButtonDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -89,7 +89,7 @@ fun ResultScreen(workout: Workout, badge: String, onNovoTreino: () -> Unit) {
             onClick = onNovoTreino,
             modifier = Modifier.fillMaxWidth().padding(top = 24.dp),
             shape = RoundedCornerShape(50),
-            colors = OutlinedButtonDefaults.outlinedButtonColors(
+            colors = ButtonDefaults.outlinedButtonColors(
                 contentColor = MaterialTheme.colorScheme.onSurfaceVariant
             )
         ) {
